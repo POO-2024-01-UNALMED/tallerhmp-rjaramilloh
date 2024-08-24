@@ -1,6 +1,6 @@
 class Deportista():
-    def __inint__(self,añosPracticando = None):
-        self._deporte = "Futbol"
+    def __inint__(self,añosPracticando = None,deporte = "Futbol"):
+        self._deporte = deporte
         self._añosPracticando = añosPracticando
 
     def getDeporte(self):
